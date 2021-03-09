@@ -1,9 +1,9 @@
 .favourite{
-  display: grid;
+  display: flex;
   color: white;
-  grid-template-areas: 
-  "bg-1 bg-2 bg-3";
-  grid-template-columns: 3fr 3fr 3fr;
+  flex-flow: row wrap;
+  row
+
   
 }
 h2 {
@@ -13,24 +13,21 @@ h2 {
 
 .favourite-bg-1 {
     background-image: url(../img/favourites/indonesia.png);
-    /* flex: 25%; */
-    grid-area: bg-1;
+    flex: 20%;
     margin: 10px;
     padding: 40px;
   }
   
   .favourite-bg-2 {
     background-image: url(../img/favourites/australia.png);
-    /* flex: 25%; */
-    grid-area: bg-2;
+    flex: 20%;
     margin: 10px;
     padding: 40px;
   }
   
   .favourite-bg-3 {
     background-image: url(../img/favourites/switzerland.png);
-    /* flex: 25%; */
-    grid-area: bg-3;
+    flex: 20%;
     margin: 10px;
     padding: 40px;
   }
