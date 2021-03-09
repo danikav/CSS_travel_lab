@@ -1,0 +1,29 @@
+.testimonial-area{
+    display:flex;
+    flex-flow: row wrap;
+    background-color:rgb(32, 32, 68);
+    color: grey
+}
+
+.testimonial-area img{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 50px;
+  width: 30%;
+  border-radius: 50%;
+}
+
+.testimonial-area h4{
+    color: white;
+    font-weight: 100;
+}
+#review1 {
+    flex:33%;
+}
+#review2 {
+    flex:33%;
+}
+#review3 {
+    flex:33%;
+}

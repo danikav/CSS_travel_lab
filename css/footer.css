@@ -10,9 +10,26 @@
     background: #040E27;
     position: relative;
     padding: 20px;
+    display: flex;
+    flex-flow: row wrap;
   }
-  
-  
+  .footer h4{
+    margin-left: 75px;
+  }
+  .footer nav{
+    margin-left: 100px;
+    padding-top: 5px;
+    color: grey;
+    display: flex;
+  }
+  .footer nav li{
+    display: inline-block;
+  }
+  .footer p{
+    margin-left: 125px;
+    padding-top: 5px;
+    color:grey
+  }
   
   .footer .footer-widget {
     padding:20px;
