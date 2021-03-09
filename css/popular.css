@@ -1,0 +1,48 @@
+hgroup{
+    text-align: center;
+}
+
+.popular {
+    color: white;
+    font-weight: bold;
+    display: grid;
+    grid-template-areas: 
+    'italy brazil america'
+    'nepal maldives indonesia';
+}
+
+#italy {
+    background-image: url(../img/destination/italy.png);
+    grid-area: italy;
+    margin: 10px
+}
+
+#brazil {
+    background-image: url(../img/destination/brazil.png);
+    grid-area: brazil;
+    margin: 10px
+}
+
+#america {
+    background-image: url(../img/destination/america.png);
+    grid-area: america;
+    margin: 10px;
+}
+
+#nepal {
+    background-image: url(../img/destination/nepal.png);
+    grid-area: nepal;
+    margin: 10px
+}
+
+#maldives {
+    background-image: url(../img/destination/maldives.png);
+    grid-area: maldives;
+    margin: 10px
+}
+
+#indonesia {
+    background-image: url(../img/destination/indonesia.png);
+    grid-area: indonesia;
+    margin: 10px
+}
