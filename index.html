@@ -57,7 +57,23 @@
 
         <!-- search-start  -->
         <section class="where-togo">
-            Search Form Here
+            <form>
+                <h2>Where do you want to go?</h2>
+                    <label>
+                  <input location="submitted-location" value="Where to go">
+                </label>
+                <label>
+                    <input type="date">
+                </label>
+                <label>
+                    <select id="type" name="type">
+                        <option value="Travel type">Travel type</option>
+                        <option value="train">Train</option>
+                        <option value="bus">Bus</option>
+                    </select>
+                </label>
+                <button id="search_button">Search</button>
+              </form>
         </section>
         <!-- search-end  -->
 

@@ -1,0 +1,31 @@
+.where-togo{
+    background-color: black;
+    color: white;
+   
+}
+.where-togo h2{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 25px;
+    padding-top: 35px;
+    font-weight: 50;
+    margin-left: 15px;
+}
+.where-togo input{
+    background-color: black;
+    color: white
+}
+.where-togo select{
+    background-color: black;
+    color: white;
+}
+
+#search_button{
+    background-color: red;
+    border-radius: 10px;
+    padding: 15px;
+    padding-left: 30px;
+    padding-right: 30px;
+    margin-left: 20px;
+    margin-bottom: 20px;
+    font-weight: bold;
+}
